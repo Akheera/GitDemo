@@ -13,6 +13,11 @@ public class day2 {
 	System.out.println("good");
 	System.out.println(urlname);
 	System.out.println(pass);
+	
+	System.out.println("new");
+	System.out.println("change");
+	System.out.println("has");
+	System.out.println("been done in develop branch ");
 	}
 	@AfterTest
 	public void last() 
