@@ -17,8 +17,8 @@ public class day1 {
 	public void last() 
 	{
 	System.out.println("number last");
-	System.out.println("gags");
-	System.out.println("cool");
+	System.out.println("new");
+	System.out.println("change");
 	
 	}
 	
@@ -28,7 +28,7 @@ public class day1 {
 public void demo2()
 {
 System.out.println("bye");
-System.out.println("gags");
-System.out.println("cool");
+System.out.println("has");
+System.out.println("been done");
 }
 }
