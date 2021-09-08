@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" parallel="tests" name="Failed suite [Loan]">
+  <parameter name="URL" value="car loan"/>
+  <parameter name="key" value="give password"/>
+  <listeners>
+    <listener class-name="test.listeners"/>
+  </listeners>
+  <test parallel="tests" name="Personal loan(failed)" preserve-order="true">
+    <parameter name="URL" value="personal loan"/>
+    <parameter name="key" value="give password"/>
+    <classes>
+      <class name="test.day2">
+        <methods>
+          <include name="last"/>
+        </methods>
+      </class> <!-- test.day2 -->
+      <class name="test.day3">
+        <methods>
+          <include name="pre"/>
+        </methods>
+      </class> <!-- test.day3 -->
+      <class name="test.day1">
+        <methods>
+          <include name="demo"/>
+          <include name="last"/>
+        </methods>
+      </class> <!-- test.day1 -->
+    </classes>
+  </test> <!-- Personal loan(failed) -->
+</suite> <!-- Failed suite [Loan] -->
