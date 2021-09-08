@@ -17,7 +17,9 @@ public class day1 {
 	public void last() 
 	{
 	System.out.println("number last");
-		
+	System.out.println("gags");
+	System.out.println("cool");
+	
 	}
 	
 
@@ -25,6 +27,8 @@ public class day1 {
 @Test
 public void demo2()
 {
-System.out.println("bye");	
+System.out.println("bye");
+System.out.println("gags");
+System.out.println("cool");
 }
 }
